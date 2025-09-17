@@ -1,0 +1,13 @@
+:root{
+    
+/* CSS HEX */
+--azul escuro: #054a91ff;
+--azul: #3e7cb1ff;
+--azul claro: #81a4cdff;
+--azul esbranquiçado: #dbe4eeff;
+
+}
+
+body{
+    background-color: var(--azul);
+}

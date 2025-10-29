@@ -1,10 +1,10 @@
 :root{
     
 /* CSS HEX */
---azul escuro: #054a91ff;
+--azul-escuro: #054a91ff;
 --azul: #3e7cb1ff;
---azul claro: #81a4cdff;
---azul esbranquiçado: #dbe4eeff;
+--azul-claro: #81a4cdff;
+--azul-esbranquicado: #dbe4eeff;
 
 }
 
@@ -13,7 +13,7 @@ body{
 display: flex;
 align-items: center;
 justify-content: center;
-front-size: 22px;
+font-size: 22px;
 margin: 0;
 padding: 0;
 }
@@ -25,20 +25,27 @@ main{
 }
 
 button{
-    background-color: var(azul);
+    background-color: #f3b60d22;
     font-size: 22px;
-    padding: 4 px
+    padding: 4 px;
     border-radius: 10px;
     margin:5px;
-    color: black 
-    box-shadow: 2px, 2px, 5px black
+    color: black;
+    box-shadow: 2px, 2px, 5px black;
 }
 button:hover{
-    background-color:aquamarine
-    box-shadow: none
+    background-color:aquamarine;
+    box-shadow: none;
     transition: 0,5s;
 
 }
+
+.passo {
+    display: none;
+}
+
+
+
 
 .passo.ativo{
     display: block;
